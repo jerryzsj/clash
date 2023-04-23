@@ -44,6 +44,14 @@ Premium core is proprietary. You can find their release notes and pre-built bina
 ## Getting Started
 Documentations are available at [GitHub Wiki](https://github.com/Dreamacro/clash/wiki).
 
+```
+version=v1.7.1
+wget https://github.com/Dreamacro/clash/releases/download/${version}/clash-linux-amd64-${version}.gz
+gunzip clash-linux-amd64-${version}.gz
+sudo mv clash-linux-amd64-${version} /usr/local/bin/clash
+sudo chmod +x /usr/local/bin/clash
+```
+
 ## Development
 If you want to build a Go application that uses Clash as a library, check out the [GitHub Wiki](https://github.com/Dreamacro/clash/wiki/Using-Clash-in-your-Golang-program).
 
